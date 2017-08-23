@@ -1,0 +1,17 @@
+<div class="section">
+    <h3>{{headingTitle}}</h3>
+    <div>
+        <div ng-app="app">
+            <table border="1">
+                <tr>
+                    <th>Country</th>
+                    <th>Population</th>
+                </tr>
+                <tr ng-repeat="(key, value) in population">
+                    <td>{{key}}</td>
+                    <td>{{value}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
